@@ -33,3 +33,13 @@ body
 {
 	height: 100vh;
 }
+
+.solo-link
+{
+	margin-top: 2%;
+}
+
+.my-link
+{
+	font-size: .75rem;
+}
