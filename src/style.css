@@ -1,10 +1,22 @@
 body
 { 
-	background: url(images/stock1.jpg) no-repeat center center fixed; 
+	background: url(images/main_small.jpeg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+@media only screen and (min-width: 1000px) 
+{
+    body 
+    { 
+        background: url(images/main_large.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; 
+    }
 }
 
 .center-vertical
@@ -27,6 +39,7 @@ body
 	top: 50%;
 	transform: translateY(-50%);
 	flex-shrink: 0;
+	opacity: 0.9;
 }
 
 .col-fit-screen-height
@@ -42,4 +55,9 @@ body
 .my-link
 {
 	font-size: .75rem;
+}
+
+.form-title
+{
+	font-family: "Times New Roman", Times, serif;
 }
