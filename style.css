@@ -1,0 +1,35 @@
+body
+{ 
+	background: url(images/stock1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.center-vertical
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.parent
+{
+	position: relative;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.child 
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	flex-shrink: 0;
+}
+
+.col-fit-screen-height
+{
+	height: 100vh;
+}
