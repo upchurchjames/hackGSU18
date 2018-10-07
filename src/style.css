@@ -1,6 +1,6 @@
 body
 { 
-	background: url(images/main_small.jpeg) no-repeat center center fixed; 
+	background: url(../images/main_small.jpeg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -11,7 +11,7 @@ body
 {
     body 
     { 
-        background: url(images/main_large.jpg) no-repeat center center fixed; 
+        background: url(../images/main_large.jpg) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
