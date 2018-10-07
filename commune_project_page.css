@@ -1,0 +1,37 @@
+
+
+.menubar
+{
+	position: fixed;
+	z-index: 1000;
+}
+
+.outer-div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%;
+}
+.inner-div
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	flex-shrink: 0;
+}
+
+body
+{
+	width: 100%;
+	padding-top: 30px;
+	display: inline-block;
+}
+
+
+
+
+
+ul
+{
+	list-style: none;
+}
